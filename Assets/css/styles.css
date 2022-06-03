@@ -1,7 +1,5 @@
 body{
-    background-image:url( "../images/cool-background.png");
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: black;
     font-family: 'Playfair Display', serif;
 }
 .nav-bar{
