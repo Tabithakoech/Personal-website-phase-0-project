@@ -1,12 +1,22 @@
 body{
-    background: black;
     font-family: 'Playfair Display', serif;
+    font-size: 20px;
+}
+#top-nav{
+    background:rgb(47, 46, 46);
+    padding-bottom: 5vw;
+    padding-top: 1vw;
+    color:#E6D5B8;
+
+
 }
 .nav-bar{
     text-align: center;
+
 }
 .nav-bar ul{
     display: flex;
+    justify-content: center;
 }
 .nav-bar li{
     list-style: none;
@@ -15,5 +25,32 @@ body{
 }
 .nav-bar a{
     text-decoration: none;
-    color: antiquewhite;
+    color:#E6D5B8;
 }
+.nav-bar span{
+    color: #F0A500;
+}
+.greet{
+    text-align: center;
+}
+#about{
+    color:rgb(47, 46, 46);
+    display: flex;
+    width: 80%;
+    padding: 2vw;
+    
+    
+}
+#about .about-image img{
+    width: 500px;
+    
+}
+#about .who{
+width: 700px;
+padding-left: 20vw;
+
+}
+#about .who span{
+    color: #F0A500;
+}
+    
