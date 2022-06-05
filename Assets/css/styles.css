@@ -24,7 +24,7 @@ body{
 }
 .nav-bar li{
   list-style: none;
-  padding:2vw ;
+  padding: 2vw;
 
 }
 .nav-bar a{
@@ -78,7 +78,7 @@ padding-left: 20vw;
     justify-content: space-between;
   }
   .services .boxes .box{
-    background: gainsboro;
+    background: white;
     margin: 20px 0;
     width: calc(100% / 3 - 50px);
     text-align: center;
@@ -131,7 +131,7 @@ padding-left: 20vw;
 
   /* MY Projects */
 .project{
-    background: gainsboro;
+    background: white;
   }
   
   .project .boxes{
