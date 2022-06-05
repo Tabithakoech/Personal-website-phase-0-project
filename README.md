@@ -1,17 +1,18 @@
 # Phase 0 Project
-### **Author Name** --*Tabitha Chepngetich*
+#### *Author Name* --Tabitha Chepngetich
 
 ### **Personal website**
 Build my portfolio website using HTML, CSS and JavaScript and Publishing it on github
 
 
 #### **Technology used**
-HTML - which was used to develop the structure of the page <br>   CSS - which was used to style the User Interface. 
+HTML
+<br>   CSS 
 <br>JavaScript 
 <br>
 
 ### **program setup instructions**
-* Clone  the repo : git clone git@github.com:Tabithakoech/Personal-website-phase-0-project.git
+* Clone  the repo : https://github.com/Tabithakoech/Personal-website-phase-0-project.git
 
 * Unzip the downloaded files in a folder of choice.
 
