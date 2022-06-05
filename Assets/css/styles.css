@@ -180,5 +180,30 @@ padding-left: 20vw;
     width: 100px;
     padding: 50px;
   }
+  #project .title {
+    text-align: center;
+
+}
+#project .title  span{
+  color: #F0A500;
+
+}
+#project .button button{
+  outline: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 25px;
+  font-weight: 400;
+  background:#F0A500;
+  color: #fff;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+#project .button button:hover{
+  border-color:#F0A500 ;
+  background-color: #fff;
+  color: #070707;
+}
   
 
