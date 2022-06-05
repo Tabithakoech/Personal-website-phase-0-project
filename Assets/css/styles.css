@@ -22,6 +22,7 @@ body{
   font-family: 'Pacifico', cursive;
   padding-top: 1vw;
   padding-left: 1vw;
+  color: #F0A500;
 }
 .nav-bar{
     text-align: center;
@@ -268,7 +269,7 @@ footer .icons {
 footer .text span{
   font-size: 17px;
   font-weight: 400;
-  color: #010100;
+  color: #E6D5B8;;
 }
 footer .text span a{
   font-weight: 500;
