@@ -41,8 +41,14 @@ body{
     color:#E6D5B8;
   
 }
+.nav-bar a:hover{
+  color: #F0A500;
+}
 .nav-bar span{
     color: #F0A500;
+}
+.nav-bar span:hover{
+  color: #E6D5B8;
 }
 .greet{
     text-align: center;
@@ -243,7 +249,7 @@ padding-left: 20vw;
 
 /* Footer CSS */
 footer{
-  background: #F0A500;
+  background: rgb(47, 46, 46);
   padding: 15px 0;
   text-align: center;
 }
@@ -253,14 +259,17 @@ footer .text{
 footer .icons a{
   padding: 1vw;
 }
+footer .icons {
+  color: #F0A500;
+}
 footer .text span{
   font-size: 17px;
   font-weight: 400;
-  color: #fff;
+  color: #E6D5B8;
 }
 footer .text span a{
   font-weight: 500;
-  color: #FFF;
+  color: #E6D5B8;
 }
 footer .text span a:hover{
   text-decoration: underline;
