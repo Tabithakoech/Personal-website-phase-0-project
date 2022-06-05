@@ -238,6 +238,7 @@ body{
 /* Contact Me CSS */
 .contact{
   background: white;
+  padding: 2vw;
 }
 .contact .content{
   margin: 0 auto;
@@ -248,8 +249,29 @@ body{
   text-align: center;
   margin: auto;
 }
-#contact .contact .title span{
-  justify-content: center;
+#contact .title {
+  text-align: center;
+  font-size: 2vw;
+  font-weight: 700;
+}
+#contact .button button{
+  outline: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 25px;
+  font-weight: 400;
+  background:#F0A500;
+  color: #fff;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  font-family: 'Yanone Kaffeesatz', sans-serif;    
+
+}
+#contact .button button:hover{
+  border-color:#F0A500 ;
+  background-color: #fff;
+  color: #070707;
 }
 
 
