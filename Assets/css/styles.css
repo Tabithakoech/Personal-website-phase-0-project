@@ -259,6 +259,9 @@ footer .text{
 footer .icons a{
   padding: 1vw;
 }
+footer .icons a:hover{
+  color: #E6D5B8;
+}
 footer .icons {
   color: #F0A500;
 }
