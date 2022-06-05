@@ -8,16 +8,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Nunito:wght@200&family=Playfair+Display:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
     <title>Document</title>
 </head>
 <body>
     <section id="top-nav">
         <div class="nav-bar">
            <ul>
-               <li> <a href=""> <span> Home</span></a> </li>
-               <li><a href="">About</a> </li>
-               <li> <a href="">Skills</a> </li>
-               <li> <a href="">Portfolio</a> </li>
+               <li> <a href="#"> <span> Home</span></a> </li>
+               <li><a href="#about">About</a> </li>
+               <li> <a href="#skills">Skills</a> </li>
+               <li> <a href="#services">Services</a> </li>
                <li> <a href="">Contact</a> </li>
            </ul>
         </div>
@@ -40,20 +41,73 @@
             <p>Hi, I am Tabitha Koech an  Accomplished web developer with two years of experience in designing and maintaining websites. Recognized for leadership and collaborative abilities when working in team settings. Motivated to provide clients with  clean user-friendly applications with intuitive functionality.</p>
         </div>
     </section> 
-    <section id="skills">
-        <div class="skills-desc">
-            <p><span>My Skills</span></p>
-            <h2>My Programming Skills</h2>
-            <p> I writecode, update websites, design layouts, edit website content, and make adjustments based on client feedback. </p>
+    <section class="services" id="services">
+        <div class="content">
+            <div class="title">
+                <p><span>Services</span></p>
+                <h2>My Services</h2>
+            </div>
+            <div class="boxes">
+               <div class="box"> 
+                   <div class="icon">
+                     <i class="fas fa-desktop"></i>
+                    </div>
+                    <div class="topic">Web Development</div>
+                    <p>Web development is the process of building websites and apps. Developers write code which determines how a website or app looks and functions</p>
+                </div>
+                <div class="box">
+                   <div class="icon">
+                      <i class="fas fa-paint-brush"></i>
+                    </div>
+                   <div class="topic">Web Design</div>
+                   <p>By using HTML code to program websites and CSS to standardize its visual language, web design professionals are responsible for building digital experiences to be used by the public. The aim is to deliver a quality experience to the audience and help the business reach its goals.</p>
+                </div>
+                <div class="box">
+                    <div class="icon">
+                     <i class="fas fa-bug"></i>
+                    </div>
+                  <div class="topic">Web Security</div>
+                  <p>Web security refers to the protective measures and protocols that organizations adopt to protect the organization from, cyber criminals and threats that use the web channel.</p>
+                </div>
+            </div>
+        </div>    
+    </section>
+
+
+
+
+     <!-- My Projecs Section Start -->
+    <section class="project" id="project">
+
+       <div class="content">
+           <div class="title">
+               <p><span>My Projects</span></p>
+               <h2>Featured Works</h2>
         </div>
-        <div class="skill-icons">
-            <img src="https://img.icons8.com/color/48/undefined/html-5--v1.png"/>
-            <img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/undefined/external-cascading-style-sheets-language-used-for-describing-the-presentation-of-a-document-logo-color-tal-revivo.png"/>
-            <img src="https://img.icons8.com/color/48/undefined/javascript--v1.png"/>
-            <img src="https://img.icons8.com/color/48/undefined/bootstrap.png"/>
-            <img src="https://img.icons8.com/color/48/undefined/figma--v1.png"/>
-            <img src="https://img.icons8.com/fluency/48/undefined/python.png"/>
+           <div class="boxes">
+              <div class="box">
+                 <div class="topic">School Website</div>
+                 <p><img src="./Assets/images/school-website.jpeg" alt="Moringa school landing page"></p>
+                 <div class="button">
+                   <a href="https://tabithakoech.github.io/landing-page-IP-week1/" target="_blank" rel="noreferrer noopener"><button>View</button></a>
+                 </div>
+            </div>
+            <div class="box">
+               <div class="topic">Quizz Board</div>
+               <p><img src="./Assets/images/quizzboard.jpeg" alt="JS quizz board"></p>
+               <div class="button">
+                 <a href="https://tabithakoech.github.io/Quizz-board-IP_3/" target="_blank" rel="noreferrer noopener"><button>View</button></a>
+               </div>
+            </div>
+            <div class="box">
+               <div class="topic">Quick Movers Website</div>
+               <p><img src="./Assets/images/quickmoveers.jpeg" alt="Quick movers"></p>
+               <div class="button">
+                  <a href="https://tabithakoech.github.io/Movers-company-landing-page/" target="_blank" rel="noreferrer noopener"><button>View</button></a>
+                </div>
+             </div>
         </div>
-    </section> 
+      </div>
+    </section>
 </body>
 </html>
