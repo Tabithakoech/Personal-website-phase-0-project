@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Nunito:wght@200&family=Playfair+Display:ital,wght@1,500&family=Yanone+Kaffeesatz:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Nunito:wght@200&family=Pacifico&family=Playfair+Display:ital,wght@1,500&family=Yanone+Kaffeesatz:wght@300&display=swap');
 *{
   
 }
@@ -17,6 +17,11 @@ body{
 #top-nav .greet img{
   width: 10vw;
   border-radius: 200vh;
+}
+#top-nav #logo{
+  font-family: 'Pacifico', cursive;
+  padding-top: 1vw;
+  padding-left: 1vw;
 }
 .nav-bar{
     text-align: center;
